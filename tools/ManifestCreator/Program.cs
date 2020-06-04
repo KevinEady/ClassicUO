@@ -32,6 +32,8 @@ namespace ManifestCreator
 
 
             // libs
+            "libs/api/cuoapi.dll",
+
             "libs/lib64/libFAudio.so.0",
             "libs/lib64/libbdiplus.so",
             "libs/lib64/libmojoshader.so",
