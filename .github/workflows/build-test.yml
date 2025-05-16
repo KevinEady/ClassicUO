@@ -26,7 +26,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-       os: [ macos-13, ubuntu-latest, windows-latest ]
+        # macos-13 is Intel x86_64, macos-latest is Apple arm64
+        os: [ macos-13, macos-latest, ubuntu-latest, windows-latest ]
 
     steps:
     - uses: actions/checkout@v4
